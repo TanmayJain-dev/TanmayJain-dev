@@ -1,28 +1,24 @@
-name: Update README Stats
+name: GitHub Readme Streak Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs automatically every day at midnight UTC
-  workflow_dispatch: # Allows you to manually trigger it anytime
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
-  metrics:
+  update-readme:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Generate Analytics Metrics
-        uses: lowlighter/metrics@latest
+      - name: Clone Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Streak Stats Card
+        uses: denvercoder1/github-readme-streak-stats-action@v2
         with:
-          # This maps your repository's GH_TOKEN secret right into the action
+          # This maps your custom secret cleanly
           token: ${{ secrets.GH_TOKEN }}
-          
-          # This saves the graphic file right into your repository
-          filename: github-metrics.svg
-          
-          # Features to include
-          base: header, activity, community, repositories, metadata
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
+
+      - name: Deploy Changes
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
