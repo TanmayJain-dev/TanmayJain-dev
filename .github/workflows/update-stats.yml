@@ -1,0 +1,19 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs automatically every day at midnight UTC
+  workflow_dispatch: # Allows you to manually trigger it anytime
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate Stats Cards
+        uses: thanhhaudev/github-stats@v1
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
