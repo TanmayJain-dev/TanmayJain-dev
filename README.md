@@ -32,5 +32,7 @@ I am a 2nd-Year B.Tech CSE student at MAIT, Delhi. I specialize in bridging the 
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="github-metrics.svg" alt="GitHub Profile Analytics" width="100%" />
+  <img src="github-stats.svg" alt="GitHub General Stats" width="48%" />
+  <img src="github-languages.svg" alt="GitHub Top Languages" width="48%" />
 </p>
+
