@@ -15,5 +15,5 @@ jobs:
       
       - name: Generate Stats Cards
         uses: thanhhaudev/github-stats@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITH_TOKEN }}
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
