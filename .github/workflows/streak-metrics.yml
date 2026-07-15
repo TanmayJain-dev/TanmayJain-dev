@@ -2,8 +2,8 @@ name: GitHub Profile Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight UTC
-  workflow_dispatch: # Allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   github-metrics:
@@ -11,17 +11,24 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate Analytics SVG
+      # Card 1: Core GitHub Stats
+      - name: General Stats Card
         uses: lowlighter/metrics@latest
         with:
-          # Natively processes your custom secret token
           token: ${{ secrets.GH_TOKEN }}
-          
-          # Saves the file locally inside your main folder
-          filename: github-metrics.svg
-          
-          # Core metrics to calculate
-          base: header, activity, community, repositories, metadata
+          filename: github-stats.svg
+          base: header, activity, community, repositories
+          config_order: header, activity, community, repositories
+
+      # Card 2: Clean Languages Chart
+      - name: Top Languages Card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          filename: github-languages.svg
+          base: "" # Disables the giant profile header on this card
           plugin_languages: yes
           plugin_languages_details: percentage
-          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+          plugin_languages_ignored: html, css # Hides non-programming markup
