@@ -1,16 +1,37 @@
-## Hi there 👋
+<h1 align="center">Tanmay Jain</h1>
+<h3 align="center">Software Engineer | AI Architecture & Full-Stack Development</h3>
 
-<!--
-**TanmayJain-dev/TanmayJain-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="[INSERT_YOUR_LINKEDIN_URL_HERE](https://www.linkedin.com/in/tanmay-jain-dev/)"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
+  <a href="mailto:Jainptanmay@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/></a>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 Engineering Profile
+I am a 2nd-Year B.Tech CSE student at MAIT, Delhi. I specialize in bridging the gap between high-speed backend architectures and applied Machine Learning models. My focus is on building scalable, low-latency applications, robust RAG pipelines, and Agentic AI workflows that solve real-world problems.
+
+### 🛠️ Technical Arsenal
+* **Backend & Full-Stack:** Node.js, Next.js, React, TypeScript, PostgreSQL, Prisma, Drizzle ORM
+* **AI & Machine Learning:** Python, LangChain, HuggingFace, Meta FAISS, Agentic Workflows
+* **Core Engineering:** C, C++ (STL Mastery), System Optimization & High-Speed Problem Solving
+
+---
+
+### 🏗️ Selected Engineering Initiatives
+
+| Project | Description | Architecture |
+|---------|-------------|--------------|
+| **[EcoSort AI](https://github.com/TanmayJain-dev/EcoSort-AI)** | AI-powered waste categorization engine aligned with UN SDGs. Developed during IBM SkillsBuild Virtual Internship. | React, Node.js, Gemini API, Drizzle ORM |
+| **ArXiv Intelligence** | NLP RAG pipeline indexing 15,000+ research papers. Optimized system boot time from 30 mins to <3 secs. | Python, FAISS, BART-Large |
+| **Agora AI** | Real-time debate assistance leveraging interactive LLM architecture and complex data workflows. | AI/ML, LLM Workflows |
+| **CampusIQ** | Full-stack university management system with complex relational database architecture and secure routing. | Next.js, Prisma, PostgreSQL |
+
+---
+
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TanmayJain-dev&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&cache_seconds=86400" height="160" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanmayJain-dev&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C9D1D9&cache_seconds=86400" height="160" alt="Top Languages" />
+</p>
