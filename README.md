@@ -31,7 +31,5 @@ I am a 2nd-Year B.Tech CSE student at MAIT, Delhi. I specialize in bridging the 
 
 ### 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TanmayJain-dev&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanmayJain-dev&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C9D1D9" height="160" alt="Top Languages" />
-</p>
+<!--START_SECTION:readme-stats-->
+<!--END_SECTION:readme-stats-->
