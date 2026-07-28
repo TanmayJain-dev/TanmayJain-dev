@@ -2,7 +2,7 @@
 <h3 align="center">Software Engineer | AI Architecture & Full-Stack Development</h3>
 
 <p align="center">
-  <a href="[INSERT_YOUR_LINKEDIN_URL_HERE](https://www.linkedin.com/in/tanmay-jain-dev/)"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
+  <a href="https://www.linkedin.com/in/tanmay-jain-dev/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
   <a href="mailto:Jainptanmay@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/></a>
 </p>
 
