@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 360" width="940" height="360" fill="none">
+<rect x="1" y="1" width="938" height="358" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="34" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700">Technical Capability Radar</text><text x="910" y="34" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="10">CURRENT ENGINEERING FOCUS</text><line x1="28" y1="48" x2="912" y2="48" stroke="#21262d"/>
+<g transform="translate(235 202)">
+<g stroke="#30363d" fill="none"><polygon points="0,-135 95,-95 135,0 95,95 0,135 -95,95 -135,0 -95,-95"/><polygon points="0,-101 71,-71 101,0 71,71 0,101 -71,71 -101,0 -71,-71" stroke-dasharray="4 4"/><polygon points="0,-67 47,-47 67,0 47,47 0,67 -47,47 -67,0 -47,-47" stroke-dasharray="4 4"/><polygon points="0,-34 24,-24 34,0 24,24 0,34 -24,24 -34,0 -24,-24" stroke-dasharray="4 4"/></g>
+<g stroke="#21262d"><line x1="0" y1="0" x2="0" y2="-135"/><line x1="0" y1="0" x2="95" y2="-95"/><line x1="0" y1="0" x2="135" y2="0"/><line x1="0" y1="0" x2="95" y2="95"/><line x1="0" y1="0" x2="0" y2="135"/><line x1="0" y1="0" x2="-95" y2="95"/><line x1="0" y1="0" x2="-135" y2="0"/><line x1="0" y1="0" x2="-95" y2="-95"/></g>
+<polygon points="0,-118 77,-77 119,0 70,70 0,101 -67,67 -108,0 -74,-74" fill="#58a6ff" fill-opacity=".13" stroke="#79c0ff" stroke-width="2"/>
+<g fill="#79c0ff"><circle cx="0" cy="-118" r="4"/><circle cx="77" cy="-77" r="4"/><circle cx="119" cy="0" r="4"/><circle cx="70" cy="70" r="4"/><circle cx="0" cy="101" r="4"/><circle cx="-67" cy="67" r="4"/><circle cx="-108" cy="0" r="4"/><circle cx="-74" cy="-74" r="4"/></g>
+</g>
+<g fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600"><text x="235" y="58" text-anchor="middle">AI / RAG</text><text x="353" y="108">Next.js / React</text><text x="390" y="206">TypeScript</text><text x="353" y="309">Python / FastAPI</text><text x="235" y="345" text-anchor="middle">C / C++ / DSA</text><text x="116" y="309" text-anchor="end">Databases</text><text x="78" y="206" text-anchor="end">System Design</text><text x="116" y="108" text-anchor="end">ML / Vision</text></g>
+<line x1="470" y1="78" x2="470" y2="330" stroke="#30363d" stroke-dasharray="4 4"/>
+<g transform="translate(510 84)"><text fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700">Stack Matrix</text>
+<g font-family="monospace" font-size="11"><text y="35" fill="#8b949e">AI SYSTEMS</text><text x="140" y="35" fill="#c9d1d9">Gemini · FAISS · RAG · Agents</text><rect y="45" width="360" height="7" rx="3" fill="#161b22"/><rect y="45" width="320" height="7" rx="3" fill="#58a6ff"/>
+<text y="82" fill="#8b949e">FULL STACK</text><text x="140" y="82" fill="#c9d1d9">Next.js · React · Node.js</text><rect y="92" width="360" height="7" rx="3" fill="#161b22"/><rect y="92" width="300" height="7" rx="3" fill="#58a6ff"/>
+<text y="129" fill="#8b949e">BACKEND</text><text x="140" y="129" fill="#c9d1d9">FastAPI · Flask · REST</text><rect y="139" width="360" height="7" rx="3" fill="#161b22"/><rect y="139" width="280" height="7" rx="3" fill="#58a6ff"/>
+<text y="176" fill="#8b949e">DATA</text><text x="140" y="176" fill="#c9d1d9">PostgreSQL · Prisma · MySQL</text><rect y="186" width="360" height="7" rx="3" fill="#161b22"/><rect y="186" width="265" height="7" rx="3" fill="#58a6ff"/>
+<text y="223" fill="#8b949e">CORE CS</text><text x="140" y="223" fill="#c9d1d9">C++ · STL · DSA</text><rect y="233" width="360" height="7" rx="3" fill="#161b22"/><rect y="233" width="250" height="7" rx="3" fill="#58a6ff"/></g></g>
+</svg>
