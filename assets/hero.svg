@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 250" width="940" height="250" fill="none">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="940" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <linearGradient id="line" x1="80" y1="0" x2="850" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#58a6ff" stop-opacity=".7"/><stop offset="1" stop-color="#7ee787" stop-opacity="0"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="938" height="248" rx="16" fill="url(#g)" stroke="#30363d"/>
+<g opacity=".18"><path d="M0 200h940M0 160h940M0 120h940M0 80h940M120 0v250M200 0v250M280 0v250M360 0v250M440 0v250M520 0v250M600 0v250M680 0v250M760 0v250M840 0v250" stroke="#8b949e" stroke-width="1"/></g>
+<path d="M45 208 C 150 176, 195 186, 260 147 S 385 92, 478 128 S 650 174, 737 106 S 848 56, 905 73" stroke="url(#line)" stroke-width="2" filter="url(#glow)"/>
+<g transform="translate(42 36)">
+  <rect width="30" height="22" rx="5" fill="#161b22" stroke="#30363d"/><text x="8" y="15" fill="#79c0ff" font-family="monospace" font-size="12" font-weight="700">~/</text>
+  <text x="42" y="17" fill="#8b949e" font-family="monospace" font-size="11">tanmayjain-dev • engineering profile</text>
+</g>
+<text x="42" y="98" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="750">Tanmay Jain</text>
+<text x="44" y="124" fill="#79c0ff" font-family="monospace" font-size="14">AI Systems • Full-Stack Engineering • RAG • Computer Vision</text>
+<text x="44" y="154" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13">B.Tech CSE @ MAIT · building systems that turn messy data into useful decisions.</text>
+<g transform="translate(44 184)">
+  <rect width="136" height="30" rx="15" fill="#161b22" stroke="#30363d"/><circle cx="17" cy="15" r="5" fill="#3fb950"/><text x="30" y="20" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600">Building</text>
+  <rect x="148" width="132" height="30" rx="15" fill="#161b22" stroke="#30363d"/><text x="162" y="20" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600">AI-first products</text>
+  <rect x="288" width="118" height="30" rx="15" fill="#161b22" stroke="#30363d"/><text x="302" y="20" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600">India · Delhi</text>
+</g>
+<g transform="translate(690 31)">
+  <rect width="205" height="168" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="18" y="27" fill="#ffffff" font-family="monospace" font-size="11" font-weight="700">SYSTEM SNAPSHOT</text>
+  <line x1="18" y1="38" x2="187" y2="38" stroke="#21262d"/>
+  <text x="18" y="64" fill="#f0f6fc" font-family="monospace" font-size="20" font-weight="700">13</text><text x="64" y="63" fill="#8b949e" font-family="-apple-system,sans-serif" font-size="11">public repos</text>
+  <text x="18" y="96" fill="#f0f6fc" font-family="monospace" font-size="20" font-weight="700">15K+</text><text x="79" y="95" fill="#8b949e" font-family="-apple-system,sans-serif" font-size="11">papers indexed</text>
+  <text x="18" y="128" fill="#f0f6fc" font-family="monospace" font-size="20" font-weight="700">30m → 3s</text><text x="18" y="148" fill="#8b949e" font-family="-apple-system,sans-serif" font-size="10">cold-start optimization</text>
+</g>
+</svg>
