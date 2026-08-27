@@ -16,7 +16,7 @@ I build **AI-powered systems and full-stack products** around a simple engineeri
 
 That has led me from **semantic search across 15,000 research papers** to **edge-aware computer-vision intelligence**, academic analytics, agentic workflows, and AI tools for learning.
 
-- 🛡️ **Hackathon:** Team Lead — **#14 out of 2,000+ global participants** at HackerRank Infinity Hacks 2026
+- 🛡️ **Hackathon:** Team Lead — **#14 out of 6,000+ global participants** at HackerRank Infinity Hacks 2026
 - 🎓 **Education:** B.Tech CSE, Maharaja Agrasen Institute of Technology
 - ⚙️ **Current obsession:** AI systems, retrieval pipelines, backend architecture and shipping things that actually work
 - 🤝 **Open to:** ambitious builds, hackathons, AI/ML engineering and full-stack collaboration
@@ -38,7 +38,7 @@ That has led me from **semantic search across 15,000 research papers** to **edge
 ### 🛡️ [Aegis Command](https://github.com/TanmayJain-dev/Aegis-Command)
 **AI-assisted tactical intelligence fusion for fragmented operational data.**
 
-Built around edge vision, SIGINT retrieval and grounded LLM summaries. The system combines **YOLOv8, FAISS, FastAPI and Next.js** into a single situational-awareness workflow. **#14 / 2,000+ globally.**
+Built around edge vision, SIGINT retrieval and grounded LLM summaries. The system combines **YOLOv8, FAISS, FastAPI and Next.js** into a single situational-awareness workflow. **#14 / 6,000+ globally.**
 
 ### 🎓 [CampusIQ](https://github.com/TanmayJain-dev/CampusIQ)
 **An academic analytics platform designed to make university results usable.**
