@@ -24,7 +24,7 @@ jobs:
             "SatQuery-AI API|https://satquery-ai-2wyh.onrender.com/api/health"
             "EquiWatch API|https://equiwatch-api.onrender.com/health"
             "Hriday Industrial AI API|https://hriday-api.onrender.com/docs"
-            "EcoSort AI API|https://ecosort-ai-01vd.onrender.com"
+            "EcoSort AI API|https://ecosort-ai-01vd.onrender.com/api/healthz"
             "Flask Finance Tracker|https://flask-finance-tracker-8b25.onrender.com"
             "n8n Workflow Service|https://n8n-tanmay.onrender.com/healthz"
           )
