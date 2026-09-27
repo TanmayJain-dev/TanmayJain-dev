@@ -1,0 +1,43 @@
+name: Render Microservices 24/7 Keep-Alive Sentinel
+
+on:
+  schedule:
+    # Runs every 10 minutes to prevent Render free-tier instances from idling/spinning down
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    name: Ping All Backend Microservices
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Ping All Render Backends
+        run: |
+          echo "======================================================"
+          echo "🚀 Waking & Keeping Render Backend Services Active..."
+          echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          echo "======================================================"
+
+          SERVICES=(
+            "SatQuery-AI API|https://satquery-ai-2wyh.onrender.com/api/health"
+            "EquiWatch API|https://equiwatch-api.onrender.com/health"
+            "Hriday Industrial AI API|https://hriday-api.onrender.com/docs"
+            "EcoSort AI API|https://ecosort-ai-01vd.onrender.com"
+            "Flask Finance Tracker|https://flask-finance-tracker-8b25.onrender.com"
+            "n8n Workflow Service|https://n8n-tanmay.onrender.com/healthz"
+          )
+
+          for item in "${SERVICES[@]}"; do
+            NAME="${item%%|*}"
+            URL="${item##*|}"
+            
+            echo -n "📡 Pinging $NAME ($URL)... "
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -m 25 "$URL" || echo "FAIL")
+            echo "Status: $HTTP_CODE"
+          done
+
+          echo "======================================================"
+          echo "✅ All microservices pinged successfully!"
+          echo "======================================================"
